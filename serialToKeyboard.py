@@ -15,6 +15,9 @@ pip install pyserial
 pyserial
 
 Windows Prereq:
+pip install Image
+Download autopygui from github https://github.com/asweigart/pyautogui
+Run python setup.py install on extracted folder
 Pyserial
 
 '''
