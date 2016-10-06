@@ -18,8 +18,8 @@ Windows Prereq:
 pip install Image
 Download autopygui from github https://github.com/asweigart/pyautogui
 Run python setup.py install on extracted folder
-Pyserial
-
+pip install pyserial
+  
 '''
 
 import pyautogui
