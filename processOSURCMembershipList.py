@@ -29,6 +29,7 @@ try:
   reader = csv.reader(f) #creates the reader object
   
   result = open('scriptOutput.txt', 'w')
+  emailList = open('emailList.txt', 'w')
   
   counter = 0    
   improperFormatCount = 0
@@ -48,7 +49,8 @@ try:
         print "Error in ID Number for " + row[1] + " " + row[2]
       if not '-' in row[5]:
         improperFormatCount = improperFormatCount + 1
-        
+    
+    emailList.write(getEmail(row) + "\n")
     counter = counter + 1
   
   print "Total Formatting Error: " + str(round(float(improperFormatCount)/float(counter), 4) * 100) + "%"
@@ -58,4 +60,5 @@ try:
 finally:
   f.close()
   result.close()
+  emailList.close()
   
