@@ -17,11 +17,11 @@ IfInString, Title, Altium Designer
 {
   ;MsgBox, We're in Altium.
   SendInput v
-  Sleep 150
+  Sleep 100
   SendInput w
-  Sleep 150
+  Sleep 100
   SendInput s
-  Sleep 150
+  Sleep 100
   SendInput u
 }
 return
