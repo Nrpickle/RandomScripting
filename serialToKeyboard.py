@@ -40,7 +40,7 @@ while 1:
     byte = ser.read()
     pyautogui.press(byte)
   #time.sleep(.002)
-  #print "checking shit"
+  #print "checking"
   #time.sleep(1)
   #print("pressing keyboard!");
   #pyautogui.press('l')
