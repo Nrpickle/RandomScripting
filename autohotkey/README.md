@@ -4,9 +4,13 @@ This file contains my documentation for my autohotkey scripts that I've develope
 
 This script is always running on machines that I control. It contains multiple personalizations.
 
+### Windows
+
+
+saasd
 ### Altium Designer Shortcuts
 Altium really lends itself to automation, there are tons of shortcuts that are available to the user. This document will describe some of them that are made easier through this script.
 
-#### Shortcut to the Suppler Search
+#### Suppler Search
 To access Supplier Search while in Altium, simply press F1.
 
