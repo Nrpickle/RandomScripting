@@ -6,7 +6,7 @@ This script is always running on machines that I control. It contains multiple p
 
 ### Windows
 
-## Caps Lock
+#### Caps Lock
 
 I rebound the traditional "Caps-Lock" functionality to "Shift-Caps", while turning Caps Lock into another Control Key.
 
