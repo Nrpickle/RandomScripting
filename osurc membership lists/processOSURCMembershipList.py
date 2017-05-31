@@ -92,4 +92,4 @@ finally:
   f.close()
   result.close()
   emailList.close()
-  
+  writer.close()
