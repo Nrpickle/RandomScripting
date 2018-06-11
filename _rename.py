@@ -72,7 +72,7 @@ for targetFile in rawFiles:
 	#Generate the output string
 	print "#New Episode Number: " + str(episodeNo)
 	
-	outputStr = namePrefix + " S" + str(season).zfill(2) + "E" + str(episodeNo).zfill(2) + ".mp4"
+	outputStr = namePrefix + " - S" + str(season).zfill(2) + "E" + str(episodeNo).zfill(2) + ".mp4"
 	print "#Current output Str: " + outputStr
 	
 	print "### RENAMING " + targetFile + " TO " + outputStr
